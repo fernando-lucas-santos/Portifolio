@@ -1,0 +1,134 @@
+@media  (min-width: 600px) and (max-width: 800px){
+
+    .text-nome > h1 {
+        font-size: 2.1em;
+    }
+    .foto-principal img{
+        width: 100%;
+    }
+
+    .sobre{
+        padding: 20px;
+    }
+    .Meus-projetos{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+
+    .dados-grup{
+        display: flex;
+        justify-content: space-around;
+        gap: 5%;
+        width: 100%;
+        margin: 20px auto 0px;
+        padding: 30px;
+    }
+
+    .secao1, .secao2, .secao3{
+        width: 35%;
+        padding: 5px;
+    }
+
+    .secao1 input, .secao2 input, .secao3 input{
+        width: 80%;
+        margin: 0px;
+        
+    }
+
+    .textarea{
+        display: flex;
+        width: 90%;
+        margin: 20px auto 0px;
+        padding: 30px;
+    }
+
+    .textarea textarea{
+        width: 85%;
+    }
+
+    .textarea div {
+        display: flex;
+        justify-content: end;
+        width: 88%;
+    }
+}
+
+@media (max-width:600px) {
+   
+    .conteiner-header{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    nav a{
+        display: none;
+        
+    }
+    .header h1{
+        font-size: 1.4em;
+    }
+    .header p{
+        font-size: .8em;
+    }
+    .menu-hamburger{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-top: 2px solid;  
+    }
+
+    .menu-hamburger::after{
+        display: block;
+        content: '';
+        margin-top: 6px;
+        width: 20px;
+        background: currentColor;
+        border-bottom: 2px solid ;
+          
+    }
+    .menu-hamburger::before{
+        display: block;
+        content: '';
+        width: 20px;
+        margin-top: 6px;
+        background: currentColor;
+        border-bottom: 2px solid ;
+        
+    }
+
+    .sobre{
+        padding: 15px;
+        text-align: justify;
+        
+    }
+    .skils{
+        flex-direction: column;
+    }
+    .foto-principal{
+        display: none;
+    }
+    .Meus-projetos{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dados-grup{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        width: 90%;
+    }
+
+    .textarea div{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 93.5%;
+        
+    }
+
+}
