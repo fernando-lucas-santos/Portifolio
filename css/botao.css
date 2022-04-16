@@ -43,6 +43,7 @@
     a:hover{
         display: block;
         border: 2px solid var(--cor0);
+        transition: 0.8s;
     }
 
     .active ul {
@@ -53,7 +54,7 @@
         top: 101.3px;
         left: 0px;
         height: 493vh;
-        width: 98%;
+        width: 97%;
         background-color: var(--cor2); 
         
     }
