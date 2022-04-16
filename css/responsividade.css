@@ -64,7 +64,7 @@
         align-items: center;
         padding: 20px;
     }
-    nav a{
+    nav ul{
         display: none;
         
     }
@@ -74,32 +74,7 @@
     .header p{
         font-size: .8em;
     }
-    .menu-hamburger{
-        display: block;
-        width: 20px;
-        height: 20px;
-        border-top: 2px solid;  
-    }
-
-    .menu-hamburger::after{
-        display: block;
-        content: '';
-        margin-top: 6px;
-        width: 20px;
-        background: currentColor;
-        border-bottom: 2px solid ;
-          
-    }
-    .menu-hamburger::before{
-        display: block;
-        content: '';
-        width: 20px;
-        margin-top: 6px;
-        background: currentColor;
-        border-bottom: 2px solid ;
-        
-    }
-
+    
     .sobre{
         padding: 15px;
         text-align: justify;

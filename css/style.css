@@ -22,6 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /*height: 419px;*/
     background-image: url('../fotos/fundo.png');
     background-size: 100%;
 }
@@ -36,7 +37,10 @@ nav{
     font-size: 1.3em;
     text-shadow: 1px 1px 2px rgb(41, 40, 40);
 }
-
+ul{
+    display: flex;
+    list-style: none;
+}
 a{
     padding: 15px;
     text-decoration: none;
