@@ -44,7 +44,7 @@
         display: block;
         border: 2px solid var(--cor0);
     }
-    
+
     .active ul {
         display: flex;
         flex-direction: column;
@@ -53,7 +53,7 @@
         top: 101.3px;
         left: 0px;
         height: 493vh;
-        width: 95vw;
+        width: 98%;
         background-color: var(--cor2); 
         
     }
