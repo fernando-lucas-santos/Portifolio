@@ -161,6 +161,7 @@ main{
     background-color: var(--cor2);
 }
 
+/* Area de contatos*/
 .conteiner-dados{
     display: flex;
     flex-direction: column;
@@ -174,13 +175,30 @@ main{
     background-color: var(--cor2);
 }
 
-.dados-grup{
+.info, .grupo-e-mail, .areatxt{
     display: flex;
     justify-content: space-around;
+    justify-items: center;
     gap: 70px;
-    max-width: 80%;
-    margin: 40px auto 0px;
-    padding: 20px;
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+.info a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.msg{
+    width: 100%;
+}
+
+.msg div{
+    display: flex;
+    justify-content: end;
+    width: 93.5%;
+    margin: auto;  
 }
 
 input{
@@ -192,16 +210,8 @@ input{
     border: none;
 }
 
-.textarea {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
 textarea{
-    width: 688.750px;
+    width: 91.5%;
     margin-top: 0px;
     padding: 10px;
     color: #fff;
@@ -210,11 +220,6 @@ textarea{
     border: none;
 }
 
-.textarea div{
-    display: flex;
-    justify-content: end;
-    width: 710px;
-}
 
 #botao{
     width: 150px;
