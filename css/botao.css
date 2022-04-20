@@ -21,27 +21,17 @@
         width: 20px;
         margin-top: 6px;
         background: currentColor;
-        border-bottom: 2px solid ;
-        
+        border-bottom: 2px solid ; 
     }
-    ul, a{
-        margin: 0 auto;
-        padding: 5px;
-
+    nav a, nav li{
         width: 90%;
-        text-align: center;
-
-    }
-    a{
         display: block;
-        width: 90%;
-        margin: auto;
         border: 2px solid transparent;
 
-    } 
+    }
   
-    a:hover{
-        display: block;
+    nav a:hover{
+        
         border: 2px solid var(--cor0);
         transition: 0.8s;
     }
@@ -49,12 +39,15 @@
     .active ul {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        align-items: center;
+        gap:40px ; 
         position: absolute;
-        top: 101.3px;
+        top: calc(60px + 20px);
         left: 0px;
-        height: 90vh;
-        width: 96.7%;
+        height: 70vh;
+        width: 91.6%;
+        margin: auto;
+        text-align: center;
         background-color: var(--cor2); 
         
     }

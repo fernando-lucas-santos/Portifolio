@@ -90,9 +90,17 @@
         flex-direction: column;
         gap: 40px;
     }
-    .dados-grup{
+    .info {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 100px;
+        margin: auto;
+    }
+    .grupo-e-mail{
+        flex-direction: column;
+        gap: 20px;
     }
     textarea{
         width: 90%;
