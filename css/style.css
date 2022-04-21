@@ -8,6 +8,9 @@
     --font0: 'Prompt', sans-serif;
     --font1: 'Roboto', sans-serif;
 }
+*{
+    box-sizing: border-box;
+}
 
 body{
     margin: 0px;
@@ -22,9 +25,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*height: 419px;*/
+    position: relative;
+    height: 20%;
     background-image: url('../fotos/fundo.png');
     background-size: 100%;
+    border: 1px solid red;
 }
 
 nav{
