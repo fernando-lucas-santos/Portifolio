@@ -54,7 +54,6 @@
 }
 
 @media (max-width:700px) {
-   
     .conteiner-header{
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -94,14 +93,16 @@
         flex-direction: column;
         gap: 40px;
     }
-
+    .competencias{
+        text-align: justify;
+    }
     /*CONTAINTER LOCALIZAÇÃO TEL LINKEDIN*/
     .info {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 20px;
         width: 100px;
     }
 
