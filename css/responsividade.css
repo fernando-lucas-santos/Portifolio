@@ -1,14 +1,17 @@
-@media  (min-width: 600px) and (max-width: 800px){
+@media  (min-width: 700px) and (max-width: 1000px){
 
     .text-nome > h1 {
         font-size: 2.1em;
-    }
-    .foto-principal img{
         width: 100%;
+    }
+    
+    .foto-principal img{
+        width: 80%;
     }
 
     .sobre{
         padding: 20px;
+        text-align: justify;
     }
     .Meus-projetos{
     display: flex;
@@ -32,12 +35,6 @@
         padding: 5px;
     }
 
-    .secao1 input, .secao2 input, .secao3 input{
-        width: 80%;
-        margin: 0px;
-        
-    }
-
     .textarea{
         display: flex;
         width: 90%;
@@ -56,7 +53,7 @@
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:700px) {
    
     .conteiner-header{
         flex-direction: row-reverse;
@@ -74,6 +71,10 @@
     .header p{
         font-size: .8em;
     }
+    .text-nome  p{
+        width: 48%;
+        max-width: 170px;
+    }
     
     .sobre{
         padding: 15px;
@@ -83,40 +84,37 @@
     .skils{
         flex-direction: column;
     }
+
     .foto-principal{
         display: none;
     }
+
+    /*CONTAINER PROJETOS*/
     .Meus-projetos{
         flex-direction: column;
         gap: 40px;
     }
+
+    /*CONTAINTER LOCALIZAÇÃO TEL LINKEDIN*/
     .info {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 50px;
         width: 100px;
-        margin: auto;
     }
 
+    /* CONTAINER  INPUT NOME SOBREN E-MAIL*/
     .grupo-e-mail{
         flex-direction: column;
         gap: 20px;
+        padding-top: 10px;
     }
-
+    
     .grupo-e-mail input{
         margin: 0px;
+        width: 100%;
     }
-    textarea{
-        width: 90%;
-    }
-
-    .textarea div{
-        display:flex;
-        flex-direction: column;
-        align-items: flex-end;
-        width: 93.5%;
-        
-    }
-
+    
 }
