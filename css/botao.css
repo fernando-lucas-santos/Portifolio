@@ -1,9 +1,11 @@
 @media (max-width:700px){
     .menu-hamburger{
         display: block;
+        
         width: 20px;
         height: 20px;
         border-top: 2px solid;  
+        cursor: pointer;
     }
 
     .menu-hamburger::after{
@@ -23,33 +25,58 @@
         background: currentColor;
         border-bottom: 2px solid ; 
     }
-    nav a{
-         
-        display: block;   
-       margin: auto;
-    }
-    
-    nav a:hover{
+
+    .active .menu-hamburger{
+        border-top: none;
         
-        border: 1px solid var(--cor0);
-        transition: 0.5s;
     }
 
-    .active ul {
+    .active .menu-hamburger::after{
+        transform: rotate(135deg);
+        transition: 0.5s;
+
+       
+    }
+    .active .menu-hamburger::before{
+        transform: rotate(-135deg);
+        transition: 0.5s;
+        position: relative;
+        top: 8px;
+    }
+    
+    nav a{     
+        display: block;   
+        margin: auto;
+    }  
+        
+     ul {
         display: flex;
         flex-direction: column;
         gap:40px ; 
         position: absolute;
         top: 100%;
         left: 0px;
-        height: 100vh;
+        height: 0vh;
         width: 100%;
         margin: auto;
         padding: 0px;
         text-align: center;
         background-color: var(--cor2); 
+        visibility: hidden;
+        overflow-y: hidden;       
         
     }
-    
+    .active ul{
+        height: 100vh;
+        visibility: visible;
+        transition: 0.7s;
+    }
+    ul a{
+        border: solid 1px transparent;
+    }
+    ul a:hover{
+        border: 1px solid var(--cor0);
+        transition: 0.4;
+    }
 
 }

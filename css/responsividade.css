@@ -60,10 +60,7 @@
         align-items: center;
         padding: 20px;
     }
-    nav ul{
-        display: none;
-        
-    }
+    
     .header h1{
         font-size: 1.4em;
     }
