@@ -242,7 +242,7 @@ textarea{
 }
 
 #botao{
-    width: 150px;
+    width: 100%;
     margin-top: 5px;
     padding: 20px;
     background-color: #1BA459;
